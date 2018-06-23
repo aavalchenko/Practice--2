@@ -41,7 +41,7 @@ namespace Practice_2
                     }
                 }
             }
-            File.WriteAllText("output.txt", (-1).ToString());
+            File.WriteAllText("output.txt", (-1).ToString());                                   // Перемещение невозможно
         }
 
         #region Вспомогательные методы
