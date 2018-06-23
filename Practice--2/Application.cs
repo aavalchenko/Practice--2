@@ -43,7 +43,8 @@ namespace Practice_2
             }
             File.WriteAllText("output.txt", (-1).ToString());
         }
-        
+
+        #region Вспомогательные методы
         /// <summary>
         /// Инициализация коллекций.
         /// </summary>
@@ -145,5 +146,6 @@ namespace Practice_2
 
             return output;
         }
+        #endregion
     }
 }
